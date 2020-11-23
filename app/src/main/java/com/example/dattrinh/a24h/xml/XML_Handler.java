@@ -8,9 +8,6 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 import java.util.ArrayList;
 
-/**
- * Created by DatTrinh on 7/7/2018.
- */
 
 public class XML_Handler extends DefaultHandler {
     private ArrayList<Item> arrItems = new ArrayList<>();
